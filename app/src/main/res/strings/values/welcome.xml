@@ -1,0 +1,22 @@
+<resources>
+    <string name="welcome_coming_soon">Coming soon..</string>
+
+    // items
+    <string name="welcome_pager_indicators">Pager Indicators</string>
+    <string name="welcome_pager_indicators_desc">
+        Integrating the page control requires two steps.
+        First, add a page control with companion scroll view, and second, forward the scroll view delegate methods to the page control.
+    </string>
+
+    <string name="welcome_chips">Group chips</string>
+    <string name="welcome_chips_desc">
+        Chips allow users to enter information, make selections, filter content, or trigger actions.
+        While buttons are expected to appear consistently and with familiar calls to action, chips should appear dynamically as a group of multiple interactive elements.
+    </string>
+
+    <string name="welcome_loaders">Loaders</string>
+    <string name="welcome_loaders_desc">
+        Progress indicators inform users about the status of ongoing processes, such as loading an app, submitting a form, or saving updates.
+        They communicate an app’s state and indicate available actions, such as whether users can navigate away from the current screen.
+    </string>
+</resources>

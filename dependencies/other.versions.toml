@@ -1,0 +1,27 @@
+# modules
+[libraries.other-timber]
+module = "com.jakewharton.timber:timber"
+[libraries.other-startup]
+module = "androidx.startup:startup-runtime"
+[libraries.compose-routing]
+module = "com.keygenqt.routing:compose-routing"
+[libraries.androidx-lifecycle]
+module = "androidx.lifecycle:lifecycle-runtime-ktx"
+
+# versions
+[libraries.other-timber.version]
+ref = "timberVersion"
+[libraries.other-startup.version]
+ref = "startupVersion"
+[libraries.compose-routing.version]
+ref = "composeRoutingVersion"
+[libraries.androidx-lifecycle.version]
+ref = "lifecycleVersion"
+
+[bundles]
+other = [
+    "other-timber",
+    "other-startup",
+    "compose-routing",
+    "androidx-lifecycle",
+]

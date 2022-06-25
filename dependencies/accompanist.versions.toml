@@ -1,0 +1,17 @@
+# modules
+[libraries.accompanist-pager]
+module = "com.google.accompanist:accompanist-pager"
+[libraries.accompanist-pager-indicators]
+module = "com.google.accompanist:accompanist-pager-indicators"
+
+# versions
+[libraries.accompanist-pager.version]
+ref = "accompanistVersion"
+[libraries.accompanist-pager-indicators.version]
+ref = "accompanistVersion"
+
+[bundles]
+accompanist = [
+    "accompanist-pager",
+    "accompanist-pager-indicators",
+]

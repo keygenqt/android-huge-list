@@ -1,0 +1,15 @@
+# os
+.DS_Store
+
+# android
+*.iml
+.gradle
+/local.properties
+.idea
+build
+*/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+keys/*

@@ -1,0 +1,32 @@
+# modules
+[libraries.compose-ui]
+module = "androidx.compose.ui:ui"
+[libraries.compose-tooling]
+module = "androidx.compose.ui:ui-tooling"
+[libraries.compose-activity]
+module = "androidx.activity:activity-compose"
+[libraries.compose-icons]
+module = "androidx.compose.material:material-icons-extended"
+[libraries.compose-material]
+module = "androidx.compose.material:material"
+
+# versions
+[libraries.compose-ui.version]
+ref = "composeVersion"
+[libraries.compose-tooling.version]
+ref = "composeVersion"
+[libraries.compose-activity.version]
+ref = "composeVersion"
+[libraries.compose-icons.version]
+ref = "composeVersion"
+[libraries.compose-material.version]
+ref = "materialVersion"
+
+[bundles]
+compose = [
+    "compose-material",
+    "compose-ui",
+    "compose-tooling",
+    "compose-activity",
+    "compose-icons",
+]
