@@ -1,5 +1,8 @@
 #!/bin/bash
 
+## Example
+## https://keygenqt.com/download/huge_825_items.json
+
 ## max count items
 MAX_COUNT=10000 
 ## max file size in MB
